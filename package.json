@@ -1,0 +1,23 @@
+{
+  "name": "emotion",
+  "version": "1.0.0",
+  "description": "Team Selkie - Emotion chooser app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harakeke-2018/Emotion.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harakeke-2018/Emotion/issues"
+  },
+  "homepage": "https://github.com/harakeke-2018/Emotion#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0"
+  }
+}

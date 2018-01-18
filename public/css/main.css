@@ -1,0 +1,19 @@
+header {
+color: blue;
+}
+
+body {
+  font-family: 'Anton', sans-serif;
+}
+
+.firstPromts {
+  display: flex;
+}
+
+levelOneHappy {
+ flex: space-evenly;
+}
+
+levelOneSad {
+ flex: space-evenly;
+}

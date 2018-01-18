@@ -1,9 +1,41 @@
 header {
-color: blue;
+color: black;
 }
 
 body {
   font-family: 'Anton', sans-serif;
+  background-color: white;
+  /* background-image: url('../emoji.jpg');
+  background-repeat: no-repeat;
+  background-size: 22%; */
+}
+
+a.buttonhappy{
+  background-color: yellow;
+  border: solid black 4px;
+  color: black;
+  margin: 40px;
+  padding: 30px;
+  display: flex; 
+  justify-content: center;
+  position: relative;
+  font-size: 2em;
+
+ 
+}
+
+a.buttonsad{
+  background-color: rgba(27, 151, 209, 0.966);
+  border: solid black 4px;
+  color: black;
+  margin: 40px;
+  padding: 30px;
+  display: flex; 
+  justify-content: center;
+  position: relative;
+  font-size: 2em;
+
+ 
 }
 
 header {  
@@ -34,15 +66,15 @@ header {
   align-items: center;
 }
 
-.levelOneHappy {
+/* .levelOneHappy {
  /* flex: space-evenly; */
  /* align-items: flex-end;
  text-align: center;
  font-size: 50px;
  justify-content: space-between; */
- flex: 1;
- justify-content: center;
-}
+
+ 
+} 
 
 .levelOneSad {
  /* flex: space-evenly; */

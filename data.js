@@ -2,7 +2,7 @@
 // const level2sad = [{id: 'gutted'}, {id: 'mellow'}, {id: 'bummer'}, {id: 'stink'}]
 
 const levelTwo = {
-  happy: [{id: 'stoked'}, {id: 'frothed'}, {id: 'joyful'}, {id: 'peaceful'}],
+  happy: [{id: 'stoked', fed: 'tets'}, {id: 'frothed'}, {id: 'joyful'}, {id: 'peaceful'}],
   sad: [{id: 'gutted'}, {id: 'mellow'}, {id: 'bummed'}, {id: 'stink'}]
 }
 

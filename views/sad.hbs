@@ -1,15 +1,10 @@
-{{> header}}
 {{!-- <script>
   const level2happy = ['stoked', 'frothed', 'joyful', 'peaceful']
 </script> --}}
 {{!-- <script src="../public/data.js"></script> --}}
 
-<div>
+<div class="row col-md-12">
 {{#each levelTwo}}
-        <div class="selection-two">
-          <button class="btn btn-default col-md-2 level-two-op1">
-            <a href="/sad/{{id}}" class="">{{id}}</a>
-          </button>
-        </div>
+            <a href="/sad/{{id}}" class="btn btn-default buttonhappy col-md-5" role="button">{{id}}</a>
 {{/each}}
 </div>

@@ -1,10 +1,64 @@
 header {
-  color: blue;
+  color: black;
   }
   
   body {
     font-family: 'Anton', sans-serif;
+    animation: colorchange 40s infinite; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+    -webkit-animation: colorchange 40s infinite; /* Chrome and Safari */
+    }
+  
+    @keyframes colorchange
+    {
+      0%   {background: rgb(238, 136, 53);}
+      25%  {background: rgb(62, 212, 205);}
+      50%  {background: rgb(235, 141, 214);}
+      75%  {background: rgb(131, 241, 131);}
+      100% {background: rgb(248, 240, 129);}
+    }
+  
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: rgb(238, 136, 53);}
+      25%  {background: rgb(62, 212, 205);}
+      50%  {background: rgb(235, 141, 214);}
+      75%  {background: rgb(131, 241, 131);}
+      100% {background: rgb(248, 240, 129);}
+    }
+  
+  div.text {
+    text-align: center;
+    font-size: 2em;
+    padding: 60px;
   }
+  
+  
+  a.buttonhappy{
+    background-color:white;
+    border: solid black 4px;
+    color: black;
+    margin: 40px;
+    padding: 30px;
+    display: flex; 
+    justify-content: center;
+    position: relative;
+    font-size: 2em;
+  
+   
+  }
+  
+  a.buttonsad{
+    background-color: white;
+    border: solid black 4px;
+    color: black;
+    margin: 40px;
+    padding: 30px;
+    display: flex; 
+    justify-content: center;
+    position: relative;
+    font-size: 2em;
+    }
   
   header {  
     display: block;
@@ -34,15 +88,15 @@ header {
     align-items: center;
   }
   
-  .levelOneHappy {
+  /* .levelOneHappy {
    /* flex: space-evenly; */
    /* align-items: flex-end;
    text-align: center;
    font-size: 50px;
    justify-content: space-between; */
-   flex: 1;
-   justify-content: center;
-  }
+/*   
+   
+  }  */
   
   .levelOneSad {
    /* flex: space-evenly; */

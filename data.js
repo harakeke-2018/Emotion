@@ -3,7 +3,7 @@
 
 const levelTwo = {
   happy: [{id: 'stoked'}, {id: 'frothed'}, {id: 'joyful'}, {id: 'peaceful'}],
-  sad: [{id: 'gutted'}, {id: 'mellow'}, {id: 'bummer'}, {id: 'stink'}]
+  sad: [{id: 'gutted'}, {id: 'mellow'}, {id: 'bummed'}, {id: 'stink'}]
 }
 
 module.exports = levelTwo

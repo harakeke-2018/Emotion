@@ -1,0 +1,16 @@
+{{> header}}
+{{!-- <script>
+  const level2happy = ['stoked', 'frothed', 'joyful', 'peaceful']
+</script> --}}
+{{!-- <script src="../public/data.js"></script> --}}
+
+<div>
+{{#each levelTwo}}
+        <div class="selection-two">
+          <button class="btn btn-default col-md-2 level-two-op1">
+            <a href="/happy/{{id}}" class="">{{id}}</a>
+          </button>
+        </div>
+{{/each}}
+</div>
+

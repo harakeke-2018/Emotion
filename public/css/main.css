@@ -1,0 +1,56 @@
+header {
+  color: blue;
+  }
+  
+  body {
+    font-family: 'Anton', sans-serif;
+  }
+  
+  header {  
+    display: block;
+    /* align-content: center; */
+    text-align: center;
+    padding: 50px;
+    font-size: 3.5em;
+    margin-bottom: 50px;
+  }
+  
+  .firstPrompts {
+    display: flex;
+    /* align-items: center; */
+    margin: auto;
+    align-items: center;
+  }
+  
+  .selection-one {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .selection-two {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .levelOneHappy {
+   /* flex: space-evenly; */
+   /* align-items: flex-end;
+   text-align: center;
+   font-size: 50px;
+   justify-content: space-between; */
+   flex: 1;
+   justify-content: center;
+  }
+  
+  .levelOneSad {
+   /* flex: space-evenly; */
+   /* align-content: center;
+   font-size: 50px;
+  }
+  a {
+    font-size: 50px; */
+    flex: 1;
+    justify-content: center;
+  }
